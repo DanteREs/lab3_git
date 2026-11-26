@@ -11,6 +11,12 @@ namespace lab3_git
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
+            Console.WriteLine("Лабораторная работа №3");
+
+            Console.Write("Введите ваше имя: ");
+            string name = Console.ReadLine();
+
+            Console.WriteLine("Привет, " + name + "!");
         }
     }
 }
