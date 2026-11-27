@@ -16,7 +16,7 @@ namespace lab3_git
             Console.Write("Введите ваше имя: ");
             string name = Console.ReadLine();
 
-            Console.WriteLine("Привет, " + name + "! Добро пожаловать друг!");
+            Console.WriteLine("Привет, " + name + "! Добро пожаловать друг! Приступим к работе.");
         }
     }
 }
